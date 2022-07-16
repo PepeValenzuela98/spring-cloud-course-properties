@@ -2,4 +2,4 @@ server:
   port: 8005
 
 custom-config:
-  text: This is a custom property test
+  text: This is a custom property test without a envinronment mode

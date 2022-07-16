@@ -1,0 +1,5 @@
+server:
+  port: 8007
+
+custom-config:
+  text: This is a custom property test in production mode

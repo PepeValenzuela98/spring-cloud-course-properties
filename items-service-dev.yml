@@ -1,0 +1,4 @@
+custom-config:
+  text: This is a custom property test in development mode
+  name: Alberto Espinosa Valenzuela
+  email: jaevcode@gmail.com
