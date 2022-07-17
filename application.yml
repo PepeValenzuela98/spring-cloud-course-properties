@@ -6,3 +6,9 @@ config:
         secret: 12345
     jwt:
       key: some_secret_code_aeiou
+
+logging:
+  level:
+    org:
+      springframework:
+        web: ERROR
