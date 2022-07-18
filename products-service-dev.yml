@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:XE
+    username: db_springboot_cloud
+    password: herohd1998
+    driverClassName: oracle.jdbc.OracleDriver
+  jpa:
+    databasePlatform: org.hibernate.dialect.Oracle10gDialect
+    hibernate:
+      ddlAuto: create-drop
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: debug
